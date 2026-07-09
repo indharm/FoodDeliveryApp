@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Navigation Bar Container */
+.custom-navbar {
+	
+    background-color: #ff4757; /* Food app signature red */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Brand Logo Layout */
+.nav-brand a {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+/* Navigation Links Wrapper */
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Individual Navigation Items */
+.nav-item {
+    margin-left: 25px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Space between text and future icons */
+    transition: color 0.2s ease-in-out;
+}
+
+/* Hover States */
+.nav-item a:hover {
+    color: #ffeaa7; /* Subtle pastel yellow on hover */
+}
+
+/* Special Button Component (Cart/Profile Count Badges) */
+.cart-badge {
+    background-color: #ffffff;
+    color: #ff4757;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-left: 4px;
+}

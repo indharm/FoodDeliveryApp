@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* Footer Main Container */
+.custom-footer {
+    background-color: #2f3542; /* Dark elegant slate grey */
+    color: #f1f2f6;
+    padding: 40px 5% 20px 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    border-top: 4px solid #ff4757; /* Matches navbar red */
+}
+
+/* Flexbox Layout for Links Columns */
+.footer-container {
+    display: table;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-row {
+    display: table-row;
+}
+
+.footer-column {
+    display: table-cell;
+    width: 25%;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+/* Headings and Typography */
+.footer-column h4 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-column p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #a4b0be;
+    margin: 0 0 10px 0;
+}
+
+/* Navigation Lists */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #a4b0be;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #ff4757; /* Brand accent color on hover */
+}
+
+/* Bottom Bar Copyright Info */
+.footer-bottom {
+    border-top: 1px solid #57606f;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #747d8c;
+}
